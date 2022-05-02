@@ -28,7 +28,14 @@ What variable(s) are neither targets nor features, and should be removed from th
 - NAME
 
 Compiling, Training, and Evaluating the Model
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+Two hidden layers with 80 and 30 neurons since it is important that a neural network model has an appropriate number of neurons to match the size of the data, the complexity of the problem, and the amount of input neurons.
+
+For a classification model, we only want a yes or no binary decision; therefore, we only need one output neuron. In the hidden layers, we used a ReLU activation function to enable nonlinear relationships; however, for our classification output, we want to use a sigmoid activation function to produce a probability output.
+
 Were you able to achieve the target model performance?
+
 What steps did you take to try and increase model performance?
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
